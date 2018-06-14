@@ -1,0 +1,28 @@
+{
+  "name": "custom-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Pickard <nathan.pickard87@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/animations": "^6.0.5",
+    "@angular/common": "^6.0.5",
+    "@angular/compiler": "^6.0.5",
+    "@angular/compiler-cli": "^6.0.5",
+    "@angular/core": "^6.0.5",
+    "@angular/forms": "^6.0.5",
+    "@angular/http": "^6.0.5",
+    "@angular/platform-browser": "^6.0.5",
+    "@angular/platform-browser-dynamic": "^6.0.5",
+    "@angular/platform-server": "^6.0.5",
+    "@angular/router": "^6.0.5",
+    "@angular/upgrade": "^6.0.5",
+    "core-js": "^2.5.7",
+    "rxjs": "^6.2.1",
+    "zone.js": "^0.8.26"
+  }
+}
