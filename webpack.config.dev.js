@@ -1,16 +1,17 @@
 var path = require('path');
 
-var wepackMerge = require('webpack-merge');
+var webpackMerge = require('webpack-merge');
 var commonConfig = require('./webpack.config.common');
 
 module.exports = webpackMerge(commonConfig, {
-  devtools: 'cheap-module-eval-source-map',
+  devtool: 'cheap-module-eval-source-map',
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/',
     filename: 'bundle.js',
     chunkFilename: '[id].chunk.js'
   },
+  mode: 'development',
   module: {
     rules: [
       {
@@ -29,6 +30,6 @@ module.exports = webpackMerge(commonConfig, {
   },
   devServer: {
     historyApiFallback: true,
-    stats: 'minimal'  }
-
+    stats: 'minimal'
+  }
 });
